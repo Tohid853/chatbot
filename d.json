@@ -1,0 +1,425 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "How are you?",
+        "Good evening",
+        "Good afternoon",
+        "Hi chatbot",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! Nice to meet you.",
+        "Hey! What can I do for you?",
+        "Hello! How are you?",
+        "Welcome! Ask me anything about programming.",
+        "Hi there! I am ready to help you."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?",
+        "Explain Python",
+        "What is Python language?",
+        "Tell me about Python",
+        "Why is Python popular?",
+        "What can we do with Python?",
+        "What are the features of Python?"
+      ],
+      "responses": [
+        "Python is a high-level programming language.",
+        "Python is a popular programming language known for its simple syntax.",
+        "Python is widely used in AI, ML, web development and data science.",
+        "Python supports object-oriented, procedural and functional programming.",
+        "Python is beginner-friendly and has a large collection of libraries."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much",
+        "Thanks for your help",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "My pleasure!",
+        "Happy to help!",
+        "No problem!",
+        "You're welcome. Feel free to ask more questions.",
+        "Glad I could help you!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "Are you fine?",
+        "How is everything?",
+        "How are you today?",
+        "Are you okay?"
+      ],
+      "responses": [
+        "I'm fine, thank you!",
+        "I'm doing great. How about you?",
+        "I'm good and ready to help you.",
+        "Doing well!",
+        "I'm doing great! What would you like to learn today?"
+      ]
+    },
+    {
+      "tag": "variable",
+      "patterns": [
+        "What is a variable?",
+        "Explain variable",
+        "What are variables?",
+        "Why do we use variables?",
+        "How do variables work?",
+        "Give an example of a variable"
+      ],
+      "responses": [
+        "A variable is used to store a value in a program.",
+        "A variable is a named reference used to store and access data.",
+        "Variables allow us to store and use data in a program.",
+        "Example in Python: name = 'Rahul'. Here, name refers to the string value Rahul."
+      ]
+    },
+    {
+      "tag": "loop",
+      "patterns": [
+        "What is a loop?",
+        "Explain loop",
+        "Why are loops used?",
+        "What are loops?",
+        "Types of loops in Python",
+        "Explain for loop",
+        "Explain while loop"
+      ],
+      "responses": [
+        "A loop is used to execute a block of code repeatedly.",
+        "Loops help us repeat a task multiple times.",
+        "A loop runs a block of code again and again based on a condition.",
+        "Python commonly uses for loops and while loops.",
+        "A for loop iterates over a sequence, while a while loop runs as long as its condition is true."
+      ]
+    },
+    {
+      "tag": "html",
+      "patterns": [
+        "What is HTML?",
+        "Explain HTML",
+        "What is the use of HTML?",
+        "What is HTML full form?",
+        "How to create a webpage?",
+        "What is HTML boilerplate?"
+      ],
+      "responses": [
+        "HTML stands for HyperText Markup Language.",
+        "HTML is used to create the structure of web pages.",
+        "HTML provides elements such as headings, paragraphs, images, links and forms.",
+        "A basic HTML page contains DOCTYPE, html, head and body elements.",
+        "HTML defines webpage structure, while CSS handles styling and JavaScript adds interactivity."
+      ]
+    },
+    {
+      "tag": "css",
+      "patterns": [
+        "What is CSS?",
+        "Explain CSS",
+        "What is CSS full form?",
+        "Why do we use CSS?",
+        "How to style a webpage?",
+        "What are CSS properties?"
+      ],
+      "responses": [
+        "CSS stands for Cascading Style Sheets.",
+        "CSS is used to style web pages with colors, fonts, spacing and layouts.",
+        "CSS makes websites visually attractive and responsive.",
+        "You can use CSS to change background colors, text sizes and element positions.",
+        "CSS can be added inline, internally or through an external stylesheet."
+      ]
+    },
+    {
+      "tag": "javascript",
+      "patterns": [
+        "What is JavaScript?",
+        "Explain JavaScript",
+        "Why is JavaScript used?",
+        "What is the use of JavaScript?",
+        "Can JavaScript make a website interactive?",
+        "Difference between JavaScript and Python"
+      ],
+      "responses": [
+        "JavaScript is a programming language widely used to make websites interactive.",
+        "JavaScript can handle events, validate forms and update webpage content.",
+        "JavaScript runs in web browsers and can also be used on servers with Node.js.",
+        "HTML creates structure, CSS adds styling and JavaScript adds behavior.",
+        "Python and JavaScript are different programming languages with different common use cases."
+      ]
+    },
+    {
+      "tag": "django",
+      "patterns": [
+        "What is Django?",
+        "Explain Django framework",
+        "Why is Django used?",
+        "What is Django in Python?",
+        "What is a Django model?",
+        "What is Django view?",
+        "What is Django template?"
+      ],
+      "responses": [
+        "Django is a high-level Python web framework used to build web applications.",
+        "Django provides features such as URL routing, templates, an ORM and an admin panel.",
+        "Django models define the structure of data stored in a database.",
+        "Django views handle requests and return responses.",
+        "Django templates generate dynamic HTML pages using data passed from views."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is machine learning?",
+        "Explain machine learning",
+        "What is ML?",
+        "How does machine learning work?",
+        "What are the types of machine learning?",
+        "Where is machine learning used?"
+      ],
+      "responses": [
+        "Machine learning is a field of AI that enables systems to learn patterns from data.",
+        "Machine learning models use data to make predictions or decisions.",
+        "Common types include supervised learning, unsupervised learning and reinforcement learning.",
+        "Machine learning is used in recommendation systems, image recognition and fraud detection.",
+        "Training data helps a model learn patterns that it can use on new data."
+      ]
+    },
+    {
+      "tag": "artificial_intelligence",
+      "patterns": [
+        "What is artificial intelligence?",
+        "What is AI?",
+        "Explain artificial intelligence",
+        "How does AI work?",
+        "Where is AI used?",
+        "What is the difference between AI and ML?"
+      ],
+      "responses": [
+        "Artificial intelligence is the field of building systems that perform tasks associated with human intelligence.",
+        "AI applications include chatbots, speech recognition, image analysis and recommendation systems.",
+        "Machine learning is a subset of AI that learns patterns from data.",
+        "AI systems may use rules, search, machine learning or other techniques to solve problems.",
+        "AI can help automate tasks, analyze information and support decision-making."
+      ]
+    },
+    {
+      "tag": "database",
+      "patterns": [
+        "What is a database?",
+        "Explain database",
+        "Why do we use databases?",
+        "What is SQL?",
+        "What is MySQL?",
+        "What is SQLite?",
+        "What is a table in a database?"
+      ],
+      "responses": [
+        "A database is an organized collection of data that can be stored and retrieved.",
+        "SQL is a language used to query and manage relational databases.",
+        "MySQL is a relational database management system.",
+        "SQLite is a lightweight database engine that stores data in a local file.",
+        "A database table organizes data into rows and columns."
+      ]
+    },
+    {
+      "tag": "api",
+      "patterns": [
+        "What is an API?",
+        "Explain API",
+        "What is REST API?",
+        "Why do we use APIs?",
+        "What is an API request?",
+        "What is JSON in API?"
+      ],
+      "responses": [
+        "API stands for Application Programming Interface.",
+        "An API allows different software applications to communicate with each other.",
+        "A REST API commonly uses HTTP methods such as GET, POST, PUT and DELETE.",
+        "GET is commonly used to retrieve data, while POST is commonly used to submit data.",
+        "JSON is a common format for exchanging structured data between applications."
+      ]
+    },
+    {
+      "tag": "streamlit",
+      "patterns": [
+        "What is Streamlit?",
+        "Explain Streamlit",
+        "How to create an app using Streamlit?",
+        "Why is Streamlit used?",
+        "How to make a chatbot in Streamlit?",
+        "What is session state in Streamlit?"
+      ],
+      "responses": [
+        "Streamlit is a Python framework for building interactive data applications.",
+        "Streamlit lets you create web apps using Python without writing much frontend code.",
+        "You can use st.title(), st.write(), st.button() and st.text_input() to build an interface.",
+        "st.session_state stores values across Streamlit reruns within a session.",
+        "Streamlit is useful for displaying machine learning models and chatbot interfaces."
+      ]
+    },
+    {
+      "tag": "oops",
+      "patterns": [
+        "What is OOP?",
+        "Explain object oriented programming",
+        "What is a class?",
+        "What is an object?",
+        "What are the four pillars of OOP?",
+        "Explain inheritance in Python"
+      ],
+      "responses": [
+        "OOP stands for Object-Oriented Programming.",
+        "A class defines a structure and behavior, while an object is an instance of a class.",
+        "The four commonly taught pillars of OOP are encapsulation, inheritance, polymorphism and abstraction.",
+        "Inheritance allows a class to reuse or extend behavior from another class.",
+        "OOP helps organize code into reusable structures."
+      ]
+    },
+    {
+      "tag": "function",
+      "patterns": [
+        "What is a function?",
+        "Explain function in Python",
+        "Why do we use functions?",
+        "How to define a function in Python?",
+        "What is the return statement?"
+      ],
+      "responses": [
+        "A function is a reusable block of code that performs a task.",
+        "In Python, the def keyword is used to define a function.",
+        "Functions help reduce code repetition and improve readability.",
+        "The return statement sends a result back from a function.",
+        "Functions can accept parameters and may return values."
+      ]
+    },
+    {
+      "tag": "list_tuple_dictionary",
+      "patterns": [
+        "What is a list in Python?",
+        "What is a tuple?",
+        "What is a dictionary in Python?",
+        "Difference between list and tuple",
+        "Explain Python collections",
+        "How to store multiple values in Python?"
+      ],
+      "responses": [
+        "A list is an ordered, mutable collection in Python.",
+        "A tuple is an ordered collection that cannot be changed after creation.",
+        "A dictionary stores data as key-value pairs.",
+        "Lists are mutable, while tuples are immutable.",
+        "Python provides lists, tuples, sets and dictionaries for storing collections of data."
+      ]
+    },
+    {
+      "tag": "error_handling",
+      "patterns": [
+        "What is exception handling?",
+        "Explain try except in Python",
+        "How to handle errors in Python?",
+        "What is a syntax error?",
+        "What is a runtime error?"
+      ],
+      "responses": [
+        "Exception handling helps a program respond to errors without stopping unexpectedly.",
+        "Python uses try and except blocks to handle exceptions.",
+        "A syntax error occurs when code violates language syntax rules.",
+        "A runtime error occurs while a program is executing.",
+        "You can use finally to run cleanup code whether an exception occurs or not."
+      ]
+    },
+    {
+      "tag": "file_handling",
+      "patterns": [
+        "What is file handling in Python?",
+        "How to read a file in Python?",
+        "How to write to a file?",
+        "What is the open function?",
+        "What is the with statement in file handling?"
+      ],
+      "responses": [
+        "File handling allows Python programs to read and write files.",
+        "The open() function opens a file in a specified mode.",
+        "Common file modes include r for reading, w for writing and a for appending.",
+        "The with statement helps close a file automatically after use.",
+        "File handling is useful for working with text files, logs and saved data."
+      ]
+    },
+    {
+      "tag": "project",
+      "patterns": [
+        "Suggest a Python project",
+        "What project should I make?",
+        "Give me a chatbot project idea",
+        "Suggest a machine learning project",
+        "How can I improve my project?",
+        "What features can I add to my chatbot?"
+      ],
+      "responses": [
+        "You can build a chatbot, student management system or employee management system using Python.",
+        "Try adding chat history, timestamps and a clear-chat option to your chatbot.",
+        "You can improve your chatbot by adding more intents and training examples.",
+        "A machine learning project could classify messages, detect spam or recommend items.",
+        "For a polished demonstration, include a clean interface, error handling and a README file."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "I am leaving",
+        "Exit"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Keep learning.",
+        "Thanks for chatting with me. Bye!",
+        "Take care and keep coding!",
+        "Bye! Come back whenever you need help."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help me",
+        "What can you do?",
+        "How can you help me?",
+        "What topics do you know?",
+        "Show me your features",
+        "What can I ask you?"
+      ],
+      "responses": [
+        "I can answer basic questions about Python, HTML, CSS, JavaScript, Django, APIs and databases.",
+        "Ask me about programming concepts, machine learning or chatbot development.",
+        "I can explain basic programming topics and suggest project ideas.",
+        "Try asking: What is Python, What is Django, or What is machine learning?",
+        "I am a rule-based intent chatbot, so my answers depend on the topics included in my training data."
+      ]
+    }
+  ]
+}
+
+

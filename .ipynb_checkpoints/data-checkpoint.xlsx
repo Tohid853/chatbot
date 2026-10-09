@@ -1,0 +1,11 @@
+data=[
+    {
+        "name":"aman","age":22,"city":"indore"
+    },
+    {
+        "name":"tarun","age":29,"city":"pune"
+    },
+    {
+        "name":"nitesh","age":27,"city":"patna"
+    }
+]
