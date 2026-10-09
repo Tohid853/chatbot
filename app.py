@@ -4,7 +4,7 @@ import joblib
 import random
 
 # Load trained model
-model = joblib.load("Chatbot.pkl")
+model = joblib.load("chatbot.pkl")
 vector = joblib.load("vector.pkl")
 res = joblib.load("res.pkl")
 
